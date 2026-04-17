@@ -1,21 +1,15 @@
 {
-  "name": "recycle",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "freelance-web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wein1m/recycle-web.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/wein1m/recycle-web/issues"
-  },
-  "homepage": "https://github.com/wein1m/recycle-web#readme"
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.6",
+    "vite": "^5.4.21"
+  }
 }
